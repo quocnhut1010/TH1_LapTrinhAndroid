@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_main"
+        android:title="Main Activity" />
+    <item
+        android:id="@+id/menu_gridview"
+        android:title="Grid View" />
+    <item
+        android:id="@+id/menu_main1"
+        android:title="Caculator"/>
+    <item
+        android:id="@+id/menu_temp"
+        android:title="Caculator Temp"/>
+    <item
+        android:id="@+id/menu_login"
+        android:title="LoginSave"/>
+    <item
+        android:id="@+id/menu_lich"
+        android:title="Lich"/>
+</menu>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/simpleListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/material_blue_grey_800"
+        android:dividerHeight="1dp"
+        android:footerDividersEnabled="false" />
+    <!-- Thêm Button chuyển sang trang MyGridView -->
+<!--    <Button-->
+<!--        android:id="@+id/buttonGoToGridView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Go to GridView"-->
+<!--        android:layout_gravity="center" />-->
+<!--    <Button-->
+<!--        android:id="@+id/buttonGoToMain"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Go to main"-->
+<!--        android:layout_gravity="center" />-->
+    <!-- Thêm Button trong layout_list_view.xml -->
+    <Button
+        android:id="@+id/buttonOpenMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu" />
+    <Spinner
+        android:id="@+id/simpleSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+    <ImageView
+        android:id="@+id/imageViewSelectedCountry"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:src="@drawable/ic_launcher_foreground" />
+    <TextView
+        android:id="@+id/textViewSelectedCountryPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Position: "
+        android:textSize="18sp"
+        android:textColor="#000" />
+
+
+</LinearLayout>

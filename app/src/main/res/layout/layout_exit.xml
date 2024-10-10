@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:padding="16dp"
+    tools:context=".Main">
+
+    <TextView
+        android:id="@+id/tvtieude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Các kiểu lập trình sự kiện "
+        android:layout_gravity="center"
+        android:textColor="#ED6129"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- TableRow for So A -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvSoA"
+            android:text="So a"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+        <EditText
+            android:id="@+id/edtSoA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"/>
+    </TableRow>
+
+    <!-- TableRow for So B -->
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvSoB"
+            android:text="So b"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+        <EditText
+            android:id="@+id/edtSoB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"/>
+    </TableRow>
+
+    <!-- TextView for displaying result -->
+    <TextView
+        android:id="@+id/simpleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Kết quả phép tính"
+        android:textColor="#f00"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Button for sum calculation -->
+    <Button
+        android:id="@+id/btnTong"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng 2 số"
+        android:onClick="calculateSum"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button"/>
+    <!-- Phép trừ -->
+    <Button
+        android:id="@+id/btnHieu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Hiệu 2 số"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:id="@+id/btnTich"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginBottom="24dp"
+        android:text="Tích 2 số" />
+
+    <Button
+        android:id="@+id/btnThuong"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginBottom="24dp"
+        android:text="Thương 2 số" />
+
+    <Button
+        android:id="@+id/btnGcd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginBottom="24dp"
+        android:text="Ước số chung lớn nhất" />
+
+    <!-- Button for exiting the app -->
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Thoát chương trình"
+        android:background="#F00"
+        android:textColor="#FFF"/>
+</LinearLayout>
